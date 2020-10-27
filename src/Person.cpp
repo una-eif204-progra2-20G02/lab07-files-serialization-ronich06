@@ -15,15 +15,15 @@ Person::Person(string id,int age,string name)
     this->age = age;
     this->name = name;
 }
-string Person::getId()
+string Person::getId() const
 {
     return id;
 }
-int Person::getAge()
+int Person::getAge() const
 {
     return age;
 }
-string Person::getName()
+string Person::getName()const
 {
     return name;
 }
@@ -39,9 +39,9 @@ void Person::setName(string name)
 {
     this->name = name;
 }
-string Person::toString()
+string Person::toString() const
 {
-    stringstream output;
+    ostringstream output;
     output<<"Id:"<<getId()<<endl;
     output<<"Age:"<<getAge()<<endl;
     output<<"Name:"<<getName()<<endl;

@@ -15,13 +15,13 @@ private:
 public:
     Person();
     Person(string,int,string);
-    string getId();
-    int getAge();
-    string getName();
+    string getId()const;
+    int getAge()const;
+    string getName()const;
     void setId(string);
     void setAge(int);
     void setName(string);
-    string toString();
+    string toString() const;
 };
 
 
