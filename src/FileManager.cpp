@@ -3,3 +3,7 @@
 //
 
 #include "FileManager.h"
+string FileManager::infoSaver(ISaveInfo * saveInfo,vector<Person> personList)
+{
+    return saveInfo->saveInfo(personList);
+}

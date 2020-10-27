@@ -4,9 +4,13 @@
 
 #ifndef MY_PROJECT_NAME_INFORMATIONSERIALIZER_H
 #define MY_PROJECT_NAME_INFORMATIONSERIALIZER_H
-
-
-class InformationSerializer {
+#include <../lib/nlohmann/json.hpp>
+#include "ISaveInfo.h"
+using namespace std;
+using nlohmann::json;
+class InformationSerializer : public ISaveInfo {
+public:
+    string saveInfo(vector<Person>) override;
 
 };
 

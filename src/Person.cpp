@@ -1,7 +1,7 @@
 //
 // Created by Pc on 23/10/2020.
 //
-
+#include "sstream"
 #include "Person.h"
 Person::Person()
 {
@@ -27,15 +27,15 @@ string Person::getName()
 {
     return name;
 }
-void Person::getId(string id)
+void Person::setId(string id)
 {
     this->id = id;
 }
-void Person::getAge(int age)
+void Person::setAge(int age)
 {
     this->age = age;
 }
-void Person::getName(string name)
+void Person::setName(string name)
 {
     this->name = name;
 }

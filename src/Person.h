@@ -18,9 +18,9 @@ public:
     string getId();
     int getAge();
     string getName();
-    void getId(string);
-    void getAge(int);
-    void getName(string);
+    void setId(string);
+    void setAge(int);
+    void setName(string);
     string toString();
 };
 
