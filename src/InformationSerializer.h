@@ -1,0 +1,14 @@
+//
+// Created by Pc on 23/10/2020.
+//
+
+#ifndef MY_PROJECT_NAME_INFORMATIONSERIALIZER_H
+#define MY_PROJECT_NAME_INFORMATIONSERIALIZER_H
+
+
+class InformationSerializer {
+
+};
+
+
+#endif //MY_PROJECT_NAME_INFORMATIONSERIALIZER_H
